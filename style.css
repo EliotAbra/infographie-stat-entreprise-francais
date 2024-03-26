@@ -1,0 +1,217 @@
+body {
+  background-color: black;
+}
+
+.title-page {
+  color: white;
+  text-align: center;
+}
+
+.presentation {
+  text-align: center;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .title-page {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }  
+
+.espace {
+    margin-bottom: 50px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+}
+
+.espace2 {
+    margin-bottom: 40px;
+}
+
+.p-pie-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.p-pie-container2 {
+  margin: 20px;
+  text-align: center;
+}
+
+.p-bar-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.p-bar-container2 {
+  margin: 20px;
+  text-align: center;
+}
+
+.p-bar-container3 {
+  margin: 20px;
+  text-align: center;
+}
+
+.title-pie {
+  margin: 20px;
+}
+
+.title-pie2 {
+  margin: 20px;
+}
+
+.title-bar {
+  margin: 20px;
+}
+
+.title-bar2 {
+  margin: 20px;
+}
+
+.title-bar3 {
+  margin: 20px;
+}
+
+.pie-container {
+    align-items: center;
+    width: 80%;
+    margin: 60px;
+}
+
+.pie-container2 {
+    align-items: center;
+    width: 80%;
+    margin: 60px;
+}
+
+.bar-container {
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.left-column, .right-column {
+    flex: 1; /* Les deux colonnes prennent une largeur égale */
+}
+
+/* Optionnel : ajustez les styles selon vos besoins */
+.left-column {
+    background-image: linear-gradient(to bottom, #00a5a5, #620092, #e94a34, #fec800);
+    padding: 20px;
+}
+
+.right-column {
+  background-image: linear-gradient(to bottom, #00a5a5, #620092, #e94a34, #fec800);
+  padding: 20px;
+}
+
+.graphic-pie {
+  background-color: #f1efe7;
+  border-radius: 30px;
+}
+
+.graphic-pie2 {
+  background-color: #f1efe7;
+  border-radius: 30px;
+}
+
+.graphic-bar {
+  background-color: #f1efe7;
+  border-radius: 30px;
+}
+
+.graphic-bar2 {
+  background-color: #f1efe7;
+  border-radius: 30px;
+}
+
+.graphic-bar3 {
+  background-color: #f1efe7;
+  border-radius: 30px;
+}
+
+.title-bar {
+    text-align: center;
+}
+
+.title-bar2 {
+    text-align: center;
+}
+
+.title-bar3 {
+    text-align: center;
+}
+
+.title-pie2 {
+    text-align: center;
+}
+
+.title-pie {
+    text-align: center;
+}

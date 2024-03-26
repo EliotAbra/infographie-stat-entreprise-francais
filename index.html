@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible"
+content="IE=edge" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0" />
+<title>Enterprise Graphic</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="apple-touch-icon" sizes="57x57" href="favicon//apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon//apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon//apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon//apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon//apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon//apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon//apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon//apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon//apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon//favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="title-page">
+        <h1>Infographie des Entreprises</h1>
+    </div>
+
+<div class="font">
+    <div class="container">
+        <div class="left-column">
+            
+            <div class="graphic-pie">
+                <div class="title-pie">
+                    <h1>
+                        Analyse de la structure économique:
+                    </h1>
+                    <h1>
+                        classification de l'INSEE
+                    </h1>
+                </div>
+                <div class="pie-container">
+                    <canvas id="pieCanvas" aria-label="chart" role="img"></canvas>
+                </div>
+                <div class="p-pie-container">
+                    <p>TPE < 10 personnes < 2 millions €</p>
+                    <p>PME < 250 personnes < 50 millions €</p>
+                    <p>ETI < 5000 personnes <1.5 milliards €</p>
+                    <p>GE > 5000 personnes > 1.5 milliards €</p>
+                    <p>Grâce à ce graphique, nous pouvons mieux nous rendre compte du nombre d'entreprises qui ont accueilli des alternants mais également du potentiel économique de la région Normande. 
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="graphic-pie2">
+                <div class="title-pie2">
+                    <h1>
+                        Statut de l'Entreprise
+                    </h1>
+                </div>
+                <div class="pie-container2">
+                    <canvas id="pieCanvas2" aria-label="chart" role="img"></canvas>
+                </div>
+                <div class="p-pie-container2">
+                    <p>Ce graphique représente la proportion des différents statuts des entreprises à avoir engagé des alternants en 2023.</p>
+                    <p>L’objectif est de montrer que, bien que certaines soient plus nombreuses, toutes les entreprises recrutent des alternants.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right-column">
+
+            <div class="graphic-bar">
+                <div class="title-bar">
+                    <h1>
+                        Sécteurs d'activités des Entreprises
+                    </h1>
+                </div>
+                <div class="bar-container">
+                    <canvas id="barCanvas" aria-label="chart" role="img"></canvas>
+                </div>
+                <div class="p-bar-container">
+                    <p>De plus en plus d'entreprises cherchent à se digitaliser, parfois dans les milieux qui n’ont pas de rapport avec le domaine du numérique.</p>
+                    <p>Les compétences d’un alternant en informatique peuvent se montrer très rapidement utiles et indispensables</p>
+                </div>
+            </div>
+
+            <div class="graphic-bar2">
+                <div class="title-bar2">
+                    <h1>
+                        Présence d'un siège de l'Entreprise
+                    </h1>
+                </div>
+                <div class="bar-container2">
+                    <canvas id="barCanvas2" aria-label="chart" role="img"></canvas>
+                </div>
+                <div class="p-bar-container2">
+                    <p>La plupart des entreprises ont un siège social, cela permet une meilleure crédibilité et peut également apporter une localisation stratégique afin de trouver plus de clients.</p>
+                    <p>Cependant, il existe des entreprises qui n’en possèdent pas. Des problèmes peuvent alors survenir comme des difficultés à communiquer ou même des problèmes juridiques et fiscaux.</p>
+                </div>
+            </div>
+
+            <div class="graphic-bar3">
+                <div class="title-bar3">
+                    <h1>
+                        Localisation des Entreprises
+                    </h1>
+                </div>
+                <div class="bar-container3">
+                    <canvas id="barCanvas3" aria-label="chart" role="img"></canvas>
+                </div>
+                <div class="p-bar-container3">
+                    <p>Sur les données présentées ci-dessus, le nombre d’alternants à Rouen est beaucoup plus élevé que dans les autres villes puisque c’est là que les entreprises sont souvent les plus nombreuses.</p>
+                    <p>Néanmoins, il existe des exceptions, bien qu’elles soient peu nombreuses.
+                    </p>
+                </div>
+                <div class="espace"></div>
+            </div>
+                <div class="presentation">
+                <h2>Eliot ABRAHAM</h2>
+                <h2>eabraham@Normandiewebschool.fr</h2>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
